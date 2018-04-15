@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.togglz:togglz-spring-core:2.5.0.Final">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.togglz/togglz-spring-core/2.5.0.Final/fcc6949184ec48cd40bdd63c93e68d46359a9e97/togglz-spring-core-2.5.0.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.togglz/togglz-spring-core/2.5.0.Final/131c71815c993b145b96fee17ae53bc3670e8180/togglz-spring-core-2.5.0.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

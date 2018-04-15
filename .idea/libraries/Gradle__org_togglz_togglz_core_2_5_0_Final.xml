@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.togglz:togglz-core:2.5.0.Final">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.togglz/togglz-core/2.5.0.Final/27ca09e4f727997a30a554ef83bec6f12834dec/togglz-core-2.5.0.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.togglz/togglz-core/2.5.0.Final/92d62340469889bdaaedf8fde63a1039cc56c997/togglz-core-2.5.0.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

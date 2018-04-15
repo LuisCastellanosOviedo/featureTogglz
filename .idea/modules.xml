@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/tooglePOC.iml" filepath="$PROJECT_DIR$/tooglePOC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tooglePOC_main.iml" filepath="$PROJECT_DIR$/.idea/modules/tooglePOC_main.iml" group="tooglePOC" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tooglePOC_test.iml" filepath="$PROJECT_DIR$/.idea/modules/tooglePOC_test.iml" group="tooglePOC" />
+    </modules>
+  </component>
+</project>
