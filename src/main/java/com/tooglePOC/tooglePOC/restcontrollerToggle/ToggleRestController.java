@@ -1,7 +1,8 @@
 package com.tooglePOC.tooglePOC.restcontrollerToggle;
 
 
-import com.tooglePOC.tooglePOC.togglz.MyFeartures;
+import com.tooglePOC.tooglePOC.togglz.Aspect.FeatureAssociation;
+import com.tooglePOC.tooglePOC.togglz.MyFeatures;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -23,15 +24,23 @@ public class ToggleRestController {
     public String helloWord(){
         String text ="";
 
-        if(manager.isActive(MyFeartures.FEATURE_ONE)){
-            text+="paso por 1";
-        }
-        if (manager.isActive(MyFeartures.FEATURE_TWO)){
-            text+="paso por 2";
-        }
+            featureOne(text);
+            text+=featureTwo(text);
 
         return text;
     }
+
+
+    @FeatureAssociation(value = MyFeatures.FEATURE_ONE)
+    public String featureOne(String text){
+        return text+="paso por 1";
+    }
+
+    @FeatureAssociation(value = MyFeatures.FEATURE_TWO)
+    public String featureTwo(String text){
+        return text+="paso por 2";
+    }
+
 
 
 }

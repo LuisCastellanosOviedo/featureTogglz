@@ -33,6 +33,15 @@ dependencies {
 	compile("org.togglz:togglz-spring-boot-starter:2.5.0.Final")
 	compile("org.togglz:togglz-console:2.5.0.Final")
 	compile("org.togglz:togglz-spring-security:2.5.0.Final")
+	// https://mvnrepository.com/artifact/org.togglz/togglz-spring-core
+	compile group: 'org.togglz', name: 'togglz-spring-core', version: '2.5.0.Final'
+	// https://mvnrepository.com/artifact/org.togglz/togglz-testing
+	compile group: 'org.togglz', name: 'togglz-testing', version: '2.5.0.Final'
+	// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-aop
+	compile group: 'org.springframework.boot', name: 'spring-boot-starter-aop', version: '2.0.1.RELEASE'
+
+
+
 
 }
 
